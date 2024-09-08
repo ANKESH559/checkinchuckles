@@ -40,12 +40,23 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+  swipeable_card_stack: ^0.0.5
+  appinio_swiper: ^1.0.3
+  get:
+  firebase_auth:
+  firebase_core:
+  google_sign_in:
+  http:
+  flutter_charts: ^0.5.2
+  fl_chart: ^0.40.0
+  google_maps_flutter: ^2.0.10
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -59,7 +70,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/images/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -74,7 +86,16 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+
+  fonts:
+    - family: Abzeitallic
+      fonts:
+        - asset: assets/fonts/AbzeeItalic.ttf
+
+    - family: Abzeregular
+      fonts:
+        - asset: assets/fonts/AbzeeRegular.ttf
+
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf

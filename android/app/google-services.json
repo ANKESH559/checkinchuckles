@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "402153985860",
+    "project_id": "checkinchuckles",
+    "storage_bucket": "checkinchuckles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402153985860:android:64f80596406f8b37216911",
+        "android_client_info": {
+          "package_name": "com.exam.geo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC69ZVgjoAfgbVvpCSjHw_zBp48zH12OUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
